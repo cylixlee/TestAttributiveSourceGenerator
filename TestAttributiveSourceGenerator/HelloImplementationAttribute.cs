@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TestAttributiveSourceGenerator.Attributes;
+﻿namespace TestAttributiveSourceGenerator;
 
 [AttributeUsage(AttributeTargets.Method)]
 public class HelloImplementationAttribute(string helloContent) : Attribute

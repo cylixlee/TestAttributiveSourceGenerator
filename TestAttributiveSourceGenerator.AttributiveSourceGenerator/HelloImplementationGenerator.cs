@@ -8,7 +8,7 @@ namespace TestAttributiveSourceGenerator.AttributiveSourceGenerator;
 [Generator(LanguageNames.CSharp)]
 public class HelloImplementationGenerator : IIncrementalGenerator
 {
-    const string ExpectedToAffectOn = "TestAttributiveSourceGenerator.Attributes.HelloImplementationAttribute";
+    const string ExpectedToAffectOn = "TestAttributiveSourceGenerator.HelloImplementationAttribute";
 
     struct ImplementationContext
     {
