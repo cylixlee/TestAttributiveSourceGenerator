@@ -9,6 +9,6 @@ public partial class Program
         new Program().HelloFromGenerator();
     }
 
-    [HelloImplementation("Fuck.")]
+    [HelloImplementation("Hello from the other side~")]
     public partial void HelloFromGenerator();
 }
