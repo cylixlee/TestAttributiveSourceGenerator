@@ -7,6 +7,7 @@ public partial class Program
     static void Main(string[] args)
     {
         new Program().HelloFromGenerator();
+        Console.WriteLine(new MyComplexImplementation());
     }
 
     [HelloImplementation("Hello from the other side~")]
