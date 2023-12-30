@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAttributiveSourceGenerator", "TestAttributiveSourceGenerator\TestAttributiveSourceGenerator.csproj", "{0835DC23-0640-4E4C-B1A1-05455A54D29B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAttributiveSourceGenerator.AttributiveSourceGenerator", "TestAttributiveSourceGenerator.AttributiveSourceGenerator\TestAttributiveSourceGenerator.AttributiveSourceGenerator.csproj", "{ABF54F39-52AC-4A2B-873A-506AEC40DA3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAttributiveSourceGenerator.Attributes", "TestAttributiveSourceGenerator.Attributes\TestAttributiveSourceGenerator.Attributes.csproj", "{1081766A-B448-4EAC-A4C4-B973BF1814B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0835DC23-0640-4E4C-B1A1-05455A54D29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0835DC23-0640-4E4C-B1A1-05455A54D29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0835DC23-0640-4E4C-B1A1-05455A54D29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0835DC23-0640-4E4C-B1A1-05455A54D29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF54F39-52AC-4A2B-873A-506AEC40DA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF54F39-52AC-4A2B-873A-506AEC40DA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF54F39-52AC-4A2B-873A-506AEC40DA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF54F39-52AC-4A2B-873A-506AEC40DA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1081766A-B448-4EAC-A4C4-B973BF1814B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1081766A-B448-4EAC-A4C4-B973BF1814B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1081766A-B448-4EAC-A4C4-B973BF1814B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1081766A-B448-4EAC-A4C4-B973BF1814B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14352B62-CF4E-495B-B469-0C0F8F7C084B}
+	EndGlobalSection
+EndGlobal
